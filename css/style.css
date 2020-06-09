@@ -1,0 +1,314 @@
+/* USE FONT WEIGHT TO SELECT Light 200, Light 200 Italic, Bold 700, Normal 400 or Normal 400 Italic */
+html,body
+{
+	height:100%;
+	margin:0px;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+}
+
+.navbar-default
+{
+	background-image: linear-gradient(to bottom,#ffffff 0,#ffffff 100%);
+}
+
+.login
+{
+	margin-top: 9%;
+	color: #ffffff;
+	background-color:#000000;
+	border-radius: 25px;
+	padding: 3px 23px;
+	font-size: 18px;
+}
+.login:hover
+{
+	color: #ffffff;
+}
+
+.header
+{
+	background-image: url("../img/bg_b.png");
+	height:50%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	/* margin-top: -20px; */
+}
+
+.footer
+{
+	background-image: url("../img/bg_b.png");
+	background-size: cover;
+	position: relative;	
+    height: fit-content;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.wrapper
+{
+	position: absolute;
+	text-align: center;
+	width:100%;
+	top:30%;
+	color:#ffffff;
+}
+
+#para1
+{
+	font-size: 25px;
+    letter-spacing: 3px;
+}
+
+#heading1
+{
+	font-size: 92px;
+}
+
+#para2
+{
+margin:4% auto 0px;
+font-style: italic;
+}
+
+section.section1 p:last-child
+{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+section.section1 p:last-child span
+{
+	font-weight: normal;
+}
+
+.row1
+{
+	margin-top: 2%;
+	margin-bottom:2%;
+}
+
+.wrapper2
+{
+	text-align: center;
+}
+
+.para3
+{
+	text-align: left;
+	font-size:20px;
+}
+
+.wrapper2 div h3
+{
+	font-weight: bold;
+}
+
+
+
+.wrapper3 h3
+{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.wrapper3 p
+{
+	margin-top: 7%;
+	font-size: 16px;
+}
+.row3
+{
+	margin-bottom: 5%;
+}
+
+.footer a
+{
+	color: #c1c1c1;
+	text-decoration: none;
+}
+
+.footer a:hover
+{
+	color: #c1c1c1;
+	text-decoration: none;
+}
+
+.footer a:visited
+{
+	color: #c1c1c1;
+	text-decoration: none;
+}
+.row4
+{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.learnButton
+{
+	background-color: #000000;
+	color:#ffffff;
+	padding: 9px 34px;
+	border-radius: 23px;
+	outline:none;
+}
+.learnButton:hover
+{
+	color:#ffffff;	
+}
+
+.category
+{
+	margin-top:2%;
+}
+
+
+/* PC like display on ipad */
+@media screen and (min-width:768px)
+{
+
+	.logo
+	{
+		width:69%;
+	}
+
+
+	.iphoneImg
+	{
+		height:378px;
+	}
+
+}
+
+@media screen and (max-width:767px)
+{
+	
+	.logo
+	{
+		width:55%;
+	}
+
+	.navbar-default .navbar-toggle
+	{
+		margin-top: 16px;
+	}
+	.navbar-header
+	{
+		height: 73px;
+	}  
+	.wrapper3 h3
+	{
+		text-align: center;
+	}
+	.iphoneImg
+	{
+		margin-top:10%;
+	}
+	.footer
+	{
+		text-align: center;
+	}
+}
+
+
+
+
+/* Mobile like display on ipad */
+@media screen and (min-width:769px)
+{
+
+}
+
+@media screen and (max-width:768px)
+{
+	
+}
+
+
+
+/* different break points */
+@media screen and (min-width:768px)
+{
+	.navbar-default
+	{
+	padding-bottom:3%;
+	margin-bottom: 0px;
+	}
+	.navbar-nav
+	{
+		margin-left:12%;
+		padding-top:2%;
+	}
+	#para2
+	{
+		text-align: center;
+		width: 84%;
+		box-sizing: border-box;
+		font-size: 155%;
+	}
+}
+@media screen and (min-width:992px)
+{
+	.navbar-default
+	{
+	padding-bottom:2%;
+	margin-bottom: 0px;
+	}
+	.navbar-nav
+	{
+		margin-left:32%;
+		padding-top: 2%;
+	}
+	#para2
+	{
+		text-align: center;
+		width: 79%;
+		box-sizing: border-box;
+		font-size: 193%;
+	}
+}
+
+@media screen and (min-width:1200px)
+{
+	.navbar-default
+	{
+	padding-bottom:2%;
+	margin-bottom: 0px;
+	}
+	.navbar-nav
+	{
+		margin-left:39%;
+		padding-top:1%;
+	}
+	#para2
+{
+	text-align: center;
+    width: 65%;
+    box-sizing: border-box;
+    font-size: 200%;
+}
+}
+
+@media screen and (max-width:767px)
+{
+	.navbar-default
+	{
+		margin-bottom: 0px;
+	}
+	.navbar-nav
+	{
+		    text-align: center;
+	}
+	#para2
+	{
+		text-align: center;
+		width: 100%;
+		box-sizing: border-box;
+		font-size: 120%;
+	}
+}
